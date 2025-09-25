@@ -1,0 +1,27 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    pick_and_place_controller:
+      type: franka_example_controllers/PickAndPlaceController
+      gazebo: true  # Set to true for testing without hardware
+      phase_duration: 3.0
+      approach_distance: 0.05
+      lift_height: 0.1
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+# Hardware interface configuration for testing (mock hardware)
+hardware:
+  mock_components_class_loader_namespace: mock_components
+  plugin_package: mock_components
+  type: mock_components/GenericSystem
+  joints:
+    - panda_joint1
+    - panda_joint2
+    - panda_joint3
+    - panda_joint4
+    - panda_joint5
+    - panda_joint6
+    - panda_joint7
