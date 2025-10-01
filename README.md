@@ -39,7 +39,7 @@ ros2 control load_controller joint_velocity_example_controller --set-state activ
 ```
 
 
-###Note: the Gazebo simulation does NOT have Cartesian velocity command interfaces. You only have:
+### Note: the Gazebo simulation does NOT have Cartesian velocity command interfaces. You only have:
 ```
 Joint position interfaces
 Joint velocity interfaces
