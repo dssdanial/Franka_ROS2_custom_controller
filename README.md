@@ -22,7 +22,7 @@ Then, use the bash file located in the following directory to apply the controll
 [Screencast from 09-26-2025 12:58:01 AM.webm](https://github.com/user-attachments/assets/f08e6457-a4d5-4e68-9d2f-61576b931760)
 
 
-## Troubleissue
+## Troubleshooting
 If the controller did not work, try loading it manually:
 
 ```
